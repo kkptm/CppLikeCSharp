@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System\System.vcxproj">
+      <Project>{30967fbf-d7fe-489b-83c1-c238fee4234b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Switch\Abstract.hpp" />
+    <ClInclude Include="include\Switch\Allocator.hpp" />
+    <ClInclude Include="include\Switch\Any.hpp" />
+    <ClInclude Include="include\Switch\As.hpp" />
+    <ClInclude Include="include\Switch\Async.hpp" />
+    <ClInclude Include="include\Switch\Await.hpp" />
+    <ClInclude Include="include\Switch\Boxing.hpp" />
+    <ClInclude Include="include\Switch\CoreExport.hpp" />
+    <ClInclude Include="include\Switch\Event.hpp" />
+    <ClInclude Include="include\Switch\ExceptionPtr.hpp" />
+    <ClInclude Include="include\Switch\Export.hpp" />
+    <ClInclude Include="include\Switch\GetHashCode.hpp" />
+    <ClInclude Include="include\Switch\InitializerList.hpp" />
+    <ClInclude Include="include\Switch\Interface.hpp" />
+    <ClInclude Include="include\Switch\Is.hpp" />
+    <ClInclude Include="include\Switch\LiteralOperatorConverter.hpp" />
+    <ClInclude Include="include\Switch\Lock.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\Registry.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryHive.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryKey.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryKeyPermissionCheck.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryOptions.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryValueKind.hpp" />
+    <ClInclude Include="include\Switch\Microsoft\Win32\RegistryValueOptions.hpp" />
+    <ClInclude Include="include\Switch\Move.hpp" />
+    <ClInclude Include="include\Switch\Nameof.hpp" />
+    <ClInclude Include="include\Switch\NullPtr.hpp" />
+    <ClInclude Include="include\Switch\Property.hpp" />
+    <ClInclude Include="include\Switch\Ref.hpp" />
+    <ClInclude Include="include\Switch\RefPtr.hpp" />
+    <ClInclude Include="include\Switch\Startup.hpp" />
+    <ClInclude Include="include\Switch\Static.hpp" />
+    <ClInclude Include="include\Switch\Switch.Core.hpp" />
+    <ClInclude Include="include\Switch\Switch.System.Core.hpp" />
+    <ClInclude Include="include\Switch\SystemCoreExport.hpp" />
+    <ClInclude Include="include\Switch\System\AccessViolationException.hpp" />
+    <ClInclude Include="include\Switch\System\Action.hpp" />
+    <ClInclude Include="include\Switch\System\AggregateException.hpp" />
+    <ClInclude Include="include\Switch\System\AppDomainUnloadedException.hpp" />
+    <ClInclude Include="include\Switch\System\ApplicationException.hpp" />
+    <ClInclude Include="include\Switch\System\ArgumentException.hpp" />
+    <ClInclude Include="include\Switch\System\ArgumentNullException.hpp" />
+    <ClInclude Include="include\Switch\System\ArgumentOutOfRangeException.hpp" />
+    <ClInclude Include="include\Switch\System\ArithmeticException.hpp" />
+    <ClInclude Include="include\Switch\System\Array.hpp" />
+    <ClInclude Include="include\Switch\System\ArraySegment.hpp" />
+    <ClInclude Include="include\Switch\System\ArrayTypeMismatchException.hpp" />
+    <ClInclude Include="include\Switch\System\AsyncCallback.hpp" />
+    <ClInclude Include="include\Switch\System\BadImageFormatException.hpp" />
+    <ClInclude Include="include\Switch\System\BitConverter.hpp" />
+    <ClInclude Include="include\Switch\System\Boolean.hpp" />
+    <ClInclude Include="include\Switch\System\Buffer.hpp" />
+    <ClInclude Include="include\Switch\System\Byte.hpp" />
+    <ClInclude Include="include\Switch\System\CannotUnloadAppDomainException.hpp" />
+    <ClInclude Include="include\Switch\System\Char.hpp" />
+    <ClInclude Include="include\Switch\System\CharEnumerator.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\ArrayList.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\BitArray.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Comparer.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Concurrent\ConcurrentQueue.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Concurrent\ConcurrentStack.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Concurrent\IProducerConsumerCollection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\DictionaryEntry.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\Comparer.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\Dictionary.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\GenericException.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\HashSet.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\ICollection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\IComparer.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\IDictionary.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\IEnumerable.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\IEnumerator.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\IList.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\KeyValuePair.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\List.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Hashtable.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\ICollection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\IComparer.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\IDictionary.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\IEnumerable.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\IEnumerator.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\IList.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\ObjectModel\Collection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\ObjectModel\ReadOnlyCollection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Queue.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Stack.hpp" />
+    <ClInclude Include="include\Switch\System\Comparison.hpp" />
+    <ClInclude Include="include\Switch\System\Console.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleCancelEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleCancelEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleColor.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleKey.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleKeyInfo.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleModifiers.hpp" />
+    <ClInclude Include="include\Switch\System\ConsoleSpecialKey.hpp" />
+    <ClInclude Include="include\Switch\System\ContextMarshalException.hpp" />
+    <ClInclude Include="include\Switch\System\Convert.hpp" />
+    <ClInclude Include="include\Switch\System\Converter.hpp" />
+    <ClInclude Include="include\Switch\System\DataMisalignedException.hpp" />
+    <ClInclude Include="include\Switch\System\DateTime.hpp" />
+    <ClInclude Include="include\Switch\System\DateTimeKind.hpp" />
+    <ClInclude Include="include\Switch\System\DayOfWeek.hpp" />
+    <ClInclude Include="include\Switch\System\Decimal.hpp" />
+    <ClInclude Include="include\Switch\System\Delegate.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\StackFrame.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\StackTrace.hpp" />
+    <ClInclude Include="include\Switch\System\DivideByZeroException.hpp" />
+    <ClInclude Include="include\Switch\System\DllNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\Double.hpp" />
+    <ClInclude Include="include\Switch\System\DuplicateWaitObjectException.hpp" />
+    <ClInclude Include="include\Switch\System\EntryPointNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\Enum.hpp" />
+    <ClInclude Include="include\Switch\System\Environment.hpp" />
+    <ClInclude Include="include\Switch\System\EnvironmentVariableTarget.hpp" />
+    <ClInclude Include="include\Switch\System\EventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\EventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Exception.hpp" />
+    <ClInclude Include="include\Switch\System\ExecutionEngineException.hpp" />
+    <ClInclude Include="include\Switch\System\FieldAccessException.hpp" />
+    <ClInclude Include="include\Switch\System\FormatException.hpp" />
+    <ClInclude Include="include\Switch\System\FormatProvider.hpp" />
+    <ClInclude Include="include\Switch\System\Func.hpp" />
+    <ClInclude Include="include\Switch\System\Globalization\NumberStyles.hpp" />
+    <ClInclude Include="include\Switch\System\Guid.hpp" />
+    <ClInclude Include="include\Switch\System\IAsyncResult.hpp" />
+    <ClInclude Include="include\Switch\System\ICloneable.hpp" />
+    <ClInclude Include="include\Switch\System\IComparable.hpp" />
+    <ClInclude Include="include\Switch\System\IConvertible.hpp" />
+    <ClInclude Include="include\Switch\System\ICustomFormatter.hpp" />
+    <ClInclude Include="include\Switch\System\IFormatProvider.hpp" />
+    <ClInclude Include="include\Switch\System\IFormattable.hpp" />
+    <ClInclude Include="include\Switch\System\IndexOutOfRangeException.hpp" />
+    <ClInclude Include="include\Switch\System\InsufficientExecutionStackException.hpp" />
+    <ClInclude Include="include\Switch\System\InsufficientMemoryException.hpp" />
+    <ClInclude Include="include\Switch\System\Int16.hpp" />
+    <ClInclude Include="include\Switch\System\Int32.hpp" />
+    <ClInclude Include="include\Switch\System\Int64.hpp" />
+    <ClInclude Include="include\Switch\System\IntPtr.hpp" />
+    <ClInclude Include="include\Switch\System\InvalidCastException.hpp" />
+    <ClInclude Include="include\Switch\System\InvalidOperationException.hpp" />
+    <ClInclude Include="include\Switch\System\InvalidProgramException.hpp" />
+    <ClInclude Include="include\Switch\System\InvalidTimeZoneException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\BinaryReader.hpp" />
+    <ClInclude Include="include\Switch\System\IO\BinaryWriter.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Directory.hpp" />
+    <ClInclude Include="include\Switch\System\IO\DirectoryInfo.hpp" />
+    <ClInclude Include="include\Switch\System\IO\DirectoryNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\DriveInfo.hpp" />
+    <ClInclude Include="include\Switch\System\IO\DriveNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\DriveType.hpp" />
+    <ClInclude Include="include\Switch\System\IO\EndOfStreamException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\File.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileAccess.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileAttributes.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileFormatException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileInfo.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileLoadException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileMode.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileShare.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileStream.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileSystemInfo.hpp" />
+    <ClInclude Include="include\Switch\System\IO\IOException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\MemoryStream.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Path.hpp" />
+    <ClInclude Include="include\Switch\System\IO\PathTooLongException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\SeekOrigin.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Stream.hpp" />
+    <ClInclude Include="include\Switch\System\IO\StreamReader.hpp" />
+    <ClInclude Include="include\Switch\System\IO\StreamWriter.hpp" />
+    <ClInclude Include="include\Switch\System\IO\StringReader.hpp" />
+    <ClInclude Include="include\Switch\System\IO\StringWriter.hpp" />
+    <ClInclude Include="include\Switch\System\IO\TextReader.hpp" />
+    <ClInclude Include="include\Switch\System\IO\TextWriter.hpp" />
+    <ClInclude Include="include\Switch\System\Linq\Enumerable.hpp" />
+    <ClInclude Include="include\Switch\System\Linq\Linq.hpp" />
+    <ClInclude Include="include\Switch\System\Math.hpp" />
+    <ClInclude Include="include\Switch\System\MemberAccessException.hpp" />
+    <ClInclude Include="include\Switch\System\MethodAccessException.hpp" />
+    <ClInclude Include="include\Switch\System\MissingFieldException.hpp" />
+    <ClInclude Include="include\Switch\System\MissingMemberException.hpp" />
+    <ClInclude Include="include\Switch\System\MissingMethodException.hpp" />
+    <ClInclude Include="include\Switch\System\MulticastNotSupportedException.hpp" />
+    <ClInclude Include="include\Switch\System\NotFiniteNumberException.hpp" />
+    <ClInclude Include="include\Switch\System\NotImplementedException.hpp" />
+    <ClInclude Include="include\Switch\System\NotSupportedException.hpp" />
+    <ClInclude Include="include\Switch\System\Nullable.hpp" />
+    <ClInclude Include="include\Switch\System\NullPointerException.hpp" />
+    <ClInclude Include="include\Switch\System\NullReferenceException.hpp" />
+    <ClInclude Include="include\Switch\System\NumericalFormat.hpp" />
+    <ClInclude Include="include\Switch\System\NumericalParsing.hpp" />
+    <ClInclude Include="include\Switch\System\Object.hpp" />
+    <ClInclude Include="include\Switch\System\ObjectDisposedException.hpp" />
+    <ClInclude Include="include\Switch\System\OperatingSystem.hpp" />
+    <ClInclude Include="include\Switch\System\OperationCanceledException.hpp" />
+    <ClInclude Include="include\Switch\System\OutOfMemoryException.hpp" />
+    <ClInclude Include="include\Switch\System\OverflowException.hpp" />
+    <ClInclude Include="include\Switch\System\PlatformID.hpp" />
+    <ClInclude Include="include\Switch\System\PlatformNotSupportedException.hpp" />
+    <ClInclude Include="include\Switch\System\Predicate.hpp" />
+    <ClInclude Include="include\Switch\System\Random.hpp" />
+    <ClInclude Include="include\Switch\System\RankException.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\CompilerServices\Caller.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\Formatter.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\IFormatter.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\ISerializable.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\SerializationEntry.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\SerializationException.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\SerializationInfo.hpp" />
+    <ClInclude Include="include\Switch\System\Runtime\Serialization\ValueType.hpp" />
+    <ClInclude Include="include\Switch\System\SByte.hpp" />
+    <ClInclude Include="include\Switch\System\Security\HostProtectionException.hpp" />
+    <ClInclude Include="include\Switch\System\Security\SecureString.hpp" />
+    <ClInclude Include="include\Switch\System\Security\SecurityException.hpp" />
+    <ClInclude Include="include\Switch\System\Security\VerificationException.hpp" />
+    <ClInclude Include="include\Switch\System\Security\XmlSyntaxException.hpp" />
+    <ClInclude Include="include\Switch\System\Single.hpp" />
+    <ClInclude Include="include\Switch\System\StackOverflowException.hpp" />
+    <ClInclude Include="include\Switch\System\String.hpp" />
+    <ClInclude Include="include\Switch\System\StringSplitOptions.hpp" />
+    <ClInclude Include="include\Switch\System\SystemException.hpp" />
+    <ClInclude Include="include\Switch\System\Text\ANSIEncoding.hpp" />
+    <ClInclude Include="include\Switch\System\Text\ASCIIEncoding.hpp" />
+    <ClInclude Include="include\Switch\System\Text\Decoder.hpp" />
+    <ClInclude Include="include\Switch\System\Text\Encoder.hpp" />
+    <ClInclude Include="include\Switch\System\Text\Encoding.hpp" />
+    <ClInclude Include="include\Switch\System\Text\StringBuilder.hpp" />
+    <ClInclude Include="include\Switch\System\Text\UnicodeEncoding.hpp" />
+    <ClInclude Include="include\Switch\System\Text\UTF32Encoding.hpp" />
+    <ClInclude Include="include\Switch\System\Text\UTF8Encoding.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\AbandonedMutexException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\AutoResetEvent.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\EventResetMode.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\EventWaitHandle.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Interlocked.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\LockRecursionException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ManualResetEvent.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Monitor.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Mutex.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ParameterizedThreadStart.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\RegisteredWaitHandle.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\SpinLock.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\SynchronizationLockException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\ITask.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\Parallel.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\Task.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\TaskFactory.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\TaskStatus.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Tasks\TaskTResult.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Thread.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadAbortException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadInterruptedException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadLocal.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadPool.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadPriority.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadStart.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadStartException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadState.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\ThreadStateException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Timeout.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Timer.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\TimerCallback.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\WaitCallback.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\WaitHandle.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\WaitHandleCannotBeOpenedException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\WaitOrTimerCallback.hpp" />
+    <ClInclude Include="include\Switch\System\TimeoutException.hpp" />
+    <ClInclude Include="include\Switch\System\TimeSpan.hpp" />
+    <ClInclude Include="include\Switch\System\TimeZoneInfo.hpp" />
+    <ClInclude Include="include\Switch\System\TimeZoneNotFoundException.hpp" />
+    <ClInclude Include="include\Switch\System\Tuple.hpp" />
+    <ClInclude Include="include\Switch\System\Type.hpp" />
+    <ClInclude Include="include\Switch\System\TypeAccessException.hpp" />
+    <ClInclude Include="include\Switch\System\TypeCode.hpp" />
+    <ClInclude Include="include\Switch\System\TypeInitializationException.hpp" />
+    <ClInclude Include="include\Switch\System\TypeLoadException.hpp" />
+    <ClInclude Include="include\Switch\System\TypeUnloadedException.hpp" />
+    <ClInclude Include="include\Switch\System\UInt16.hpp" />
+    <ClInclude Include="include\Switch\System\UInt32.hpp" />
+    <ClInclude Include="include\Switch\System\UInt64.hpp" />
+    <ClInclude Include="include\Switch\System\UIntPtr.hpp" />
+    <ClInclude Include="include\Switch\System\UnauthorizedAccessException.hpp" />
+    <ClInclude Include="include\Switch\System\ValueTuple.hpp" />
+    <ClInclude Include="include\Switch\System\ValueType.hpp" />
+    <ClInclude Include="include\Switch\System\Version.hpp" />
+    <ClInclude Include="include\Switch\System\_String.h" />
+    <ClInclude Include="include\Switch\System\_String.hpp" />
+    <ClInclude Include="include\Switch\Types.hpp" />
+    <ClInclude Include="include\Switch\Undef.hpp" />
+    <ClInclude Include="include\Switch\Unused.hpp" />
+    <ClInclude Include="include\Switch\Using.hpp" />
+    <ClInclude Include="include\Switch\__opaque_function_pointer__.hpp" />
+    <ClInclude Include="include\Switch\__opaque_lock_guard__.hpp" />
+    <ClInclude Include="include\Switch\__opaque_unicode_string__.hpp" />
+    <ClInclude Include="src\Native\Api.hpp" />
+    <ClInclude Include="src\Switch\System\ArrayAlgorithms.hpp" />
+    <ClInclude Include="src\Switch\System\SocketInit.hpp" />
+    <ClInclude Include="src\Switch\System\Threading\NamedHandleCollection.hpp" />
+    <ClInclude Include="src\Switch\System\__HResults.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Native\ConsoleApiGcc.cpp" />
+    <ClCompile Include="src\Native\ConsoleApiW32.cpp" />
+    <ClCompile Include="src\Native\DateTimeApiGcc.cpp" />
+    <ClCompile Include="src\Native\DateTimeApiW32.cpp" />
+    <ClCompile Include="src\Native\DirectoryApiGcc.cpp" />
+    <ClCompile Include="src\Native\DirectoryApiW32.cpp" />
+    <ClCompile Include="src\Native\DriveApiGcc.cpp" />
+    <ClCompile Include="src\Native\DriveApiW32.cpp" />
+    <ClCompile Include="src\Native\EnvironmentApiGcc.cpp" />
+    <ClCompile Include="src\Native\EnvironmentApiW32.cpp" />
+    <ClCompile Include="src\Native\EnvironmentVersionApi.cpp" />
+    <ClCompile Include="src\Native\FormatApi.cpp" />
+    <ClCompile Include="src\Native\InterlockedApiGcc.cpp" />
+    <ClCompile Include="src\Native\InterlockedApiW32.cpp" />
+    <ClCompile Include="src\Native\RegistryApiGcc.cpp" />
+    <ClCompile Include="src\Native\RegistryApiW32.cpp" />
+    <ClCompile Include="src\Native\SecurityApi.cpp" />
+    <ClCompile Include="src\Native\ThreadApiGcc.cpp" />
+    <ClCompile Include="src\Native\ThreadApiW32.cpp" />
+    <ClCompile Include="src\Native\TypeApiGcc.cpp" />
+    <ClCompile Include="src\Native\TypeApiW32.cpp" />
+    <ClCompile Include="src\Native\UnicodeCharactersApi.cpp" />
+    <ClCompile Include="src\Native\UnicodeEncodingsApi.cpp" />
+    <ClCompile Include="src\Switch\Abstract.cpp" />
+    <ClCompile Include="src\Switch\Any.cpp" />
+    <ClCompile Include="src\Switch\Await.cpp" />
+    <ClCompile Include="src\Switch\Boxing.cpp" />
+    <ClCompile Include="src\Switch\ExceptionPtr.cpp" />
+    <ClCompile Include="src\Switch\GetHashCode.cpp" />
+    <ClCompile Include="src\Switch\LiteralOperatorConverter.cpp" />
+    <ClCompile Include="src\Switch\Microsoft\Win32\RegistryKeyAll.cpp" />
+    <ClCompile Include="src\Switch\Microsoft\Win32\RegistryKeyWin.cpp" />
+    <ClCompile Include="src\Switch\Startup.cpp" />
+    <ClCompile Include="src\Switch\Switch.Core.cpp" />
+    <ClCompile Include="src\Switch\Switch.System.Core.cpp" />
+    <ClCompile Include="src\Switch\System\BitConverter.cpp" />
+    <ClCompile Include="src\Switch\System\Boolean.cpp" />
+    <ClCompile Include="src\Switch\System\Buffer.cpp" />
+    <ClCompile Include="src\Switch\System\Byte.cpp" />
+    <ClCompile Include="src\Switch\System\Char.cpp" />
+    <ClCompile Include="src\Switch\System\Console.cpp" />
+    <ClCompile Include="src\Switch\System\Convert.cpp" />
+    <ClCompile Include="src\Switch\System\DateTime.cpp" />
+    <ClCompile Include="src\Switch\System\Decimal.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\StackFrame.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\StackTrace.cpp" />
+    <ClCompile Include="src\Switch\System\Double.cpp" />
+    <ClCompile Include="src\Switch\System\Environment.cpp" />
+    <ClCompile Include="src\Switch\System\EventArgs.cpp" />
+    <ClCompile Include="src\Switch\System\Exception.cpp" />
+    <ClCompile Include="src\Switch\System\Guid.cpp" />
+    <ClCompile Include="src\Switch\System\Int16.cpp" />
+    <ClCompile Include="src\Switch\System\Int32.cpp" />
+    <ClCompile Include="src\Switch\System\Int64.cpp" />
+    <ClCompile Include="src\Switch\System\IntPtr.cpp" />
+    <ClCompile Include="src\Switch\System\IO\Directory.cpp" />
+    <ClCompile Include="src\Switch\System\IO\DirectoryInfo.cpp" />
+    <ClCompile Include="src\Switch\System\IO\DriveInfo.cpp" />
+    <ClCompile Include="src\Switch\System\IO\File.cpp" />
+    <ClCompile Include="src\Switch\System\IO\FileInfo.cpp" />
+    <ClCompile Include="src\Switch\System\IO\FileStream.cpp" />
+    <ClCompile Include="src\Switch\System\IO\FileSystemInfo.cpp" />
+    <ClCompile Include="src\Switch\System\IO\MemoryStream.cpp" />
+    <ClCompile Include="src\Switch\System\IO\Path.cpp" />
+    <ClCompile Include="src\Switch\System\IO\Stream.cpp" />
+    <ClCompile Include="src\Switch\System\IO\StreamReader.cpp" />
+    <ClCompile Include="src\Switch\System\IO\StreamWriter.cpp" />
+    <ClCompile Include="src\Switch\System\IO\StringReader.cpp" />
+    <ClCompile Include="src\Switch\System\IO\StringWriter.cpp" />
+    <ClCompile Include="src\Switch\System\IO\TextReader.cpp" />
+    <ClCompile Include="src\Switch\System\IO\TextWriter.cpp" />
+    <ClCompile Include="src\Switch\System\Linq\Linq.cpp" />
+    <ClCompile Include="src\Switch\System\Math.cpp" />
+    <ClCompile Include="src\Switch\System\NumericalFormat.cpp" />
+    <ClCompile Include="src\Switch\System\NumericalParsing.cpp" />
+    <ClCompile Include="src\Switch\System\Object.cpp" />
+    <ClCompile Include="src\Switch\System\Random.cpp" />
+    <ClCompile Include="src\Switch\System\Runtime\Serialization\SerializationInfo.cpp" />
+    <ClCompile Include="src\Switch\System\SByte.cpp" />
+    <ClCompile Include="src\Switch\System\Security\SecureString.cpp" />
+    <ClCompile Include="src\Switch\System\Single.cpp" />
+    <ClCompile Include="src\Switch\System\String.cpp" />
+    <ClCompile Include="src\Switch\System\Text\ANSIEncoding.cpp" />
+    <ClCompile Include="src\Switch\System\Text\ASCIIEncoding.cpp" />
+    <ClCompile Include="src\Switch\System\Text\Decoder.cpp" />
+    <ClCompile Include="src\Switch\System\Text\Encoder.cpp" />
+    <ClCompile Include="src\Switch\System\Text\Encoding.cpp" />
+    <ClCompile Include="src\Switch\System\Text\UnicodeEncoding.cpp" />
+    <ClCompile Include="src\Switch\System\Text\UTF32Encoding.cpp" />
+    <ClCompile Include="src\Switch\System\Text\UTF8Encoding.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\EventWaitHandle.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Interlocked.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Monitor.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Mutex.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Tasks\Task.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Thread.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\ThreadPool.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Timeout.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\WaitHandle.cpp" />
+    <ClCompile Include="src\Switch\System\TimeSpan.cpp" />
+    <ClCompile Include="src\Switch\System\TimeZoneInfo.cpp" />
+    <ClCompile Include="src\Switch\System\Type.cpp" />
+    <ClCompile Include="src\Switch\System\UInt16.cpp" />
+    <ClCompile Include="src\Switch\System\UInt32.cpp" />
+    <ClCompile Include="src\Switch\System\UInt64.cpp" />
+    <ClCompile Include="src\Switch\System\UIntPtr.cpp" />
+    <ClCompile Include="src\Switch\__opaque_lock_guard__.cpp" />
+    <ClCompile Include="src\Switch\__opaque_unicode_string__.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{639c3ea1-20b3-4229-88fe-4be62b46b298}</ProjectGuid>
+    <RootNamespace>SystemCore</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

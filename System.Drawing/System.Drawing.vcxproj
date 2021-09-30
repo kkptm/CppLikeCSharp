@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Switch\Switch.System.Drawing.hpp" />
+    <ClInclude Include="include\Switch\SystemDrawingExport.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Bitmap.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Brush.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\CharacterRange.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Color.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\ContentAlignment.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Drawing2D\DashStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Font.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\FontFamily.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\FontStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Graphics.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\GraphicsUnit.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Image.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Imaging\ColorPalette.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Imaging\FrameDimension.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Imaging\ImageFlags.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Imaging\ImageFormat.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Imaging\PixelFormat.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\KnownColor.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Pen.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Point.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\PointF.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Rectangle.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\RectangleF.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Size.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\SizeF.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\SolidBrush.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\SystemColors.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Text\FontCollection.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Text\GenericFontFamilies.hpp" />
+    <ClInclude Include="include\Switch\System\Drawing\Text\InstalledFontCollection.hpp" />
+    <ClInclude Include="src\Native\Api.hpp" />
+    <ClInclude Include="src\Switch\System\Drawing\Bmp.hpp" />
+    <ClInclude Include="src\Switch\System\Drawing\Gif.hpp" />
+    <ClInclude Include="src\Switch\System\Drawing\Jpg.hpp" />
+    <ClInclude Include="src\Switch\System\Drawing\Png.hpp" />
+    <ClInclude Include="src\Switch\System\Drawing\Tif.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Native\BrushApiGtk.cpp" />
+    <ClCompile Include="src\Native\BrushApiWin32.cpp" />
+    <ClCompile Include="src\Native\FontFamilyApiGtk.cpp" />
+    <ClCompile Include="src\Native\FontFamilyApiWin32.cpp" />
+    <ClCompile Include="src\Native\GdiApiGtk.cpp" />
+    <ClCompile Include="src\Native\GdiApiWin32.cpp" />
+    <ClCompile Include="src\Native\PenApiGtk.cpp" />
+    <ClCompile Include="src\Native\PenApiWin32.cpp" />
+    <ClCompile Include="src\Native\SystemColorsApiGtk.cpp" />
+    <ClCompile Include="src\Native\SystemColorsApiWin32.cpp" />
+    <ClCompile Include="src\Switch\Switch.System.Drawing.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Brush.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Color.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Font.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\FontFamily.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Graphics.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Image.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Imaging\FrameDimension.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Imaging\ImageFormat.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Pen.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Point.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\PointF.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Rectangle.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\RectangleF.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Size.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\SizeF.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\SolidBrush.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\SystemColors.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Text\FontCollection.cpp" />
+    <ClCompile Include="src\Switch\System\Drawing\Text\InstalledFontCollection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\jpeg\jpeg.vcxproj">
+      <Project>{c714cc8a-3b53-4df7-9558-1d154fbd7ac6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{fd98a29b-d6c7-4ba5-9c04-2a2e9bce2bd6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RS-232\RS-232.vcxproj">
+      <Project>{3783a99f-8efd-4e8b-8abe-cd3b997c04e8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.vcxproj">
+      <Project>{639c3ea1-20b3-4229-88fe-4be62b46b298}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.vcxproj">
+      <Project>{30967fbf-d7fe-489b-83c1-c238fee4234b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{6de7a699-3c61-4595-ac51-946ff3914423}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cd845b49-a1e2-4af8-8ebf-9e85188ad3e5}</ProjectGuid>
+    <RootNamespace>SystemDrawing</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

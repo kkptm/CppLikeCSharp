@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\call_stack\call_stack.vcxproj">
+      <Project>{3df5bac8-268f-4489-86e3-e0513832e45a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\curl\curl.vcxproj">
+      <Project>{8e9aca49-77c8-4997-aacd-8eb2a50db9ac}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\easywsclient\easywsclient.vcxproj">
+      <Project>{43af20e2-f698-450a-94b3-98919aeb4cfd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\jpeg\jpeg.vcxproj">
+      <Project>{c714cc8a-3b53-4df7-9558-1d154fbd7ac6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{fd98a29b-d6c7-4ba5-9c04-2a2e9bce2bd6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RS-232\RS-232.vcxproj">
+      <Project>{3783a99f-8efd-4e8b-8abe-cd3b997c04e8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{6de7a699-3c61-4595-ac51-946ff3914423}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Switch\Switch.System.hpp" />
+    <ClInclude Include="include\Switch\SystemExport.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Concurrent\ConcurrentBag.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\ISet.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\LinkedList.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\Queue.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\SortedDictionary.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\SortedSet.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Generic\Stack.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Specialized\StringCollection.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Specialized\StringDictionary.hpp" />
+    <ClInclude Include="include\Switch\System\Collections\Specialized\StringEnumerator.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\InvalidEnumArgumentException.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\ConsoleTraceListener.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\Debug.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\DefaultTraceListener.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\NullTraceListener.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\Process.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\ProcessPriorityClass.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\ProcessStartInfo.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\ProcessWindowStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\Stopwatch.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TextWriterTraceListener.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\Trace.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceEventCache.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceEventType.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceFilter.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceListener.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceListenerCollection.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceOptions.hpp" />
+    <ClInclude Include="include\Switch\System\Diagnostics\TraceSource.hpp" />
+    <ClInclude Include="include\Switch\System\IO\ErrorEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\IO\FileSystemEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\IO\InternalBufferOverflowException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\InvalidDataException.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\Handshake.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\Parity.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialData.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialDataReceivedEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialDataReceivedEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialError.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialErrorReceivedEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialErrorReceivedEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialPinChange.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialPinChangedEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialPinChangedEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\SerialPort.hpp" />
+    <ClInclude Include="include\Switch\System\IO\Ports\StopBits.hpp" />
+    <ClInclude Include="include\Switch\System\IO\WatcherChangeTypes.hpp" />
+    <ClInclude Include="include\Switch\System\Media\SystemSound.hpp" />
+    <ClInclude Include="include\Switch\System\Media\SystemSounds.hpp" />
+    <ClInclude Include="include\Switch\System\Net\CookieException.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Dns.hpp" />
+    <ClInclude Include="include\Switch\System\Net\DnsEndPoint.hpp" />
+    <ClInclude Include="include\Switch\System\Net\EndPoint.hpp" />
+    <ClInclude Include="include\Switch\System\Net\FtpStatusCode.hpp" />
+    <ClInclude Include="include\Switch\System\Net\FtpWebRequest.hpp" />
+    <ClInclude Include="include\Switch\System\Net\FtpWebResponse.hpp" />
+    <ClInclude Include="include\Switch\System\Net\HttpListenerException.hpp" />
+    <ClInclude Include="include\Switch\System\Net\HttpStatusCode.hpp" />
+    <ClInclude Include="include\Switch\System\Net\HttpWebRequest.hpp" />
+    <ClInclude Include="include\Switch\System\Net\HttpWebResponse.hpp" />
+    <ClInclude Include="include\Switch\System\Net\IPAddress.hpp" />
+    <ClInclude Include="include\Switch\System\Net\IPEndPoint.hpp" />
+    <ClInclude Include="include\Switch\System\Net\IPHostEntry.hpp" />
+    <ClInclude Include="include\Switch\System\Net\NetworkCredential.hpp" />
+    <ClInclude Include="include\Switch\System\Net\ProtocolViolationException.hpp" />
+    <ClInclude Include="include\Switch\System\Net\SocketAddress.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\AddressFamily.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\IOControlCode.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\IPv6MulticastOption.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\LingerOption.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\MulticastOption.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\NetworkStream.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\ProtocolFamily.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\ProtocolType.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SelectMode.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\Socket.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketError.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketException.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketFlags.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketInformation.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketInformationOptions.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketOptionLevel.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketOptionName.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketShutdown.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\SocketType.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\TcpClient.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\TcpListener.hpp" />
+    <ClInclude Include="include\Switch\System\Net\Sockets\UdpClient.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebException.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebRequest.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebRequestMethods.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebResponse.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebSockets\ClientWebSocket.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebSockets\WebSocket.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebSockets\WebSocketCloseStatus.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebSockets\WebSocketMessageType.hpp" />
+    <ClInclude Include="include\Switch\System\Net\WebSockets\WebSocketState.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Barrier.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\BarrierPostPhaseException.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\Semaphore.hpp" />
+    <ClInclude Include="include\Switch\System\Threading\SemaphoreFullException.hpp" />
+    <ClInclude Include="include\Switch\System\Uri.hpp" />
+    <ClInclude Include="include\Switch\System\UriComponents.hpp" />
+    <ClInclude Include="include\Switch\System\UriFormat.hpp" />
+    <ClInclude Include="include\Switch\System\UriFormatException.hpp" />
+    <ClInclude Include="include\Switch\System\UriHostNameType.hpp" />
+    <ClInclude Include="include\Switch\System\UriKind.hpp" />
+    <ClInclude Include="include\Switch\System\UriPartial.hpp" />
+    <ClInclude Include="include\Switch\System\UriTemplateMatchException.hpp" />
+    <ClInclude Include="src\Native\Api.hpp" />
+    <ClInclude Include="src\Switch\System\Threading\NamedHandleCollection.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Native\CurlApi.cpp" />
+    <ClCompile Include="src\Native\DebuggerApiGcc.cpp" />
+    <ClCompile Include="src\Native\DebuggerApiW32.cpp" />
+    <ClCompile Include="src\Native\DnsApi.cpp" />
+    <ClCompile Include="src\Native\ProcessApiGcc.cpp" />
+    <ClCompile Include="src\Native\ProcessApiW32.cpp" />
+    <ClCompile Include="src\Native\SecurityApi.cpp" />
+    <ClCompile Include="src\Native\SocketApiGcc.cpp" />
+    <ClCompile Include="src\Native\SocketApiW32.cpp" />
+    <ClCompile Include="src\Native\SystemSoundApiGtk.cpp" />
+    <ClCompile Include="src\Native\SystemSoundApiW32.cpp" />
+    <ClCompile Include="src\Switch\Switch.System.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\Debug.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\DefaultTraceListener.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\Process.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\ProcessStartInfo.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\Stopwatch.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\Trace.cpp" />
+    <ClCompile Include="src\Switch\System\Diagnostics\TraceSource.cpp" />
+    <ClCompile Include="src\Switch\System\IO\Ports\SerialPort.cpp" />
+    <ClCompile Include="src\Switch\System\Media\SystemSound.cpp" />
+    <ClCompile Include="src\Switch\System\Media\SystemSounds.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Dns.cpp" />
+    <ClCompile Include="src\Switch\System\Net\DnsEndPoint.cpp" />
+    <ClCompile Include="src\Switch\System\Net\EndPoint.cpp" />
+    <ClCompile Include="src\Switch\System\Net\FtpWebRequest.cpp" />
+    <ClCompile Include="src\Switch\System\Net\FtpWebResponse.cpp" />
+    <ClCompile Include="src\Switch\System\Net\HttpWebRequest.cpp" />
+    <ClCompile Include="src\Switch\System\Net\HttpWebResponse.cpp" />
+    <ClCompile Include="src\Switch\System\Net\IPAddress.cpp" />
+    <ClCompile Include="src\Switch\System\Net\IPEndPoint.cpp" />
+    <ClCompile Include="src\Switch\System\Net\IPHostEntry.cpp" />
+    <ClCompile Include="src\Switch\System\Net\SocketAddress.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Sockets\NetworkStream.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Sockets\Socket.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Sockets\TcpClient.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Sockets\TcpListener.cpp" />
+    <ClCompile Include="src\Switch\System\Net\Sockets\UdpClient.cpp" />
+    <ClCompile Include="src\Switch\System\Net\WebRequest.cpp" />
+    <ClCompile Include="src\Switch\System\Net\WebRequestMethods.cpp" />
+    <ClCompile Include="src\Switch\System\Net\WebResponse.cpp" />
+    <ClCompile Include="src\Switch\System\Net\WebSockets\ClientWebSocket.cpp" />
+    <ClCompile Include="src\Switch\System\Net\WebSockets\WebSocket.cpp" />
+    <ClCompile Include="src\Switch\System\Threading\Semaphore.cpp" />
+    <ClCompile Include="src\Switch\System\Uri.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{30967fbf-d7fe-489b-83c1-c238fee4234b}</ProjectGuid>
+    <RootNamespace>System</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.30.30528</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.30.30528</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <VCToolsVersion>14.30.30528</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.30.30528</VCToolsVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

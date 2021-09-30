@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/.vs/CppLikeCSharp/v17/Preview
+/.vs
+/call_stack/x64

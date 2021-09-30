@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Switch\Switch.System.Windows.Forms.hpp" />
+    <ClInclude Include="include\Switch\SystemWindowsFormsExport.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\CancelEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\CancelEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\Component.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\ComponentCollection.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\EventHandlerList.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\IComponent.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\IContainer.hpp" />
+    <ClInclude Include="include\Switch\System\ComponentModel\ISite.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\AccessibleEvents.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\AccessibleNavigation.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\AccessibleRole.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\AnchorStyles.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Application.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ArrangeDirection.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ArrangeStartingPosition.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\AutoSizeMode.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\BootMode.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\BorderStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Button.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ButtonBase.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\CheckBox.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\CheckState.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\CloseReason.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ContainerControl.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Control.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ControlEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ControlEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ControlStyles.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DataFormats.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DialogResult.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DockStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DragDropEffects.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DragEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\DragEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Form.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormBorderStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormClosedEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormClosedEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormClosingEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormClosingEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\FormStartPosition.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\GiveFeedbackEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\GiveFeedbackEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\GroupBox.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\HelpEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\HelpEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\IDataObject.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ImageLayout.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\InvalidateEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\InvalidateEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\KeyEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\KeyEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\KeyPressEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\KeyPressEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Keys.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Label.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ListControl.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Message.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MessageBox.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MessageBoxButtons.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MessageBoxDefaultButton.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MessageBoxIcon.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MessageBoxOptions.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MethodInvoker.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MouseButtons.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MouseEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\MouseEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Orientation.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\PaintEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\PaintEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Panel.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ProgressBar.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ProgressBarStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\RadioButton.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\ScrollableControl.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Shortcut.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\SystemInformation.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TabAlignment.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TabControl.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TabPage.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TickStyle.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\Timer.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TrackBar.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\UICues.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\UICuesEventArgs.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\UICuesEventHandler.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\VisualStyles\VisualStyleState.hpp" />
+    <ClInclude Include="src\Native\Api.hpp" />
+    <ClInclude Include="src\Native\WidgetCocoa.hpp" />
+    <ClInclude Include="src\Native\WidgetGtk.hpp" />
+    <ClInclude Include="src\Native\WindowMessage.hpp" />
+    <ClInclude Include="src\Native\WindowMessageKey.hpp" />
+    <ClInclude Include="src\Native\WindowProcedureApiCocoa.hpp" />
+    <ClInclude Include="src\Native\WindowProcedureApiWin32.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Native\ApplicationApiGtk.cpp" />
+    <ClCompile Include="src\Native\ApplicationApiWin32.cpp" />
+    <ClCompile Include="src\Native\ButtonApiGtk.cpp" />
+    <ClCompile Include="src\Native\ButtonApiWin32.cpp" />
+    <ClCompile Include="src\Native\CheckBoxApiGtk.cpp" />
+    <ClCompile Include="src\Native\CheckBoxApiWin32.cpp" />
+    <ClCompile Include="src\Native\ControlApiGtk.cpp" />
+    <ClCompile Include="src\Native\ControlApiWin32.cpp" />
+    <ClCompile Include="src\Native\FormApiGtk.cpp" />
+    <ClCompile Include="src\Native\FormApiWin32.cpp" />
+    <ClCompile Include="src\Native\GroupBoxApiGtk.cpp" />
+    <ClCompile Include="src\Native\GroupBoxApiWin32.cpp" />
+    <ClCompile Include="src\Native\LabelApiGtk.cpp" />
+    <ClCompile Include="src\Native\LabelApiWin32.cpp" />
+    <ClCompile Include="src\Native\PanelApiGtk.cpp" />
+    <ClCompile Include="src\Native\PanelApiWin32.cpp" />
+    <ClCompile Include="src\Native\ProgressBarApiGtk.cpp" />
+    <ClCompile Include="src\Native\ProgressBarApiWin32.cpp" />
+    <ClCompile Include="src\Native\RadioButtonApiGtk.cpp" />
+    <ClCompile Include="src\Native\RadioButtonApiWin32.cpp" />
+    <ClCompile Include="src\Native\SystemInformationApiGtk.cpp" />
+    <ClCompile Include="src\Native\SystemInformationApiWin32.cpp" />
+    <ClCompile Include="src\Native\TabControlApiGtk.cpp" />
+    <ClCompile Include="src\Native\TabControlApiWin32.cpp" />
+    <ClCompile Include="src\Native\TabPageApiGtk.cpp" />
+    <ClCompile Include="src\Native\TabPageApiWin32.cpp" />
+    <ClCompile Include="src\Native\TimerApiGtk.cpp" />
+    <ClCompile Include="src\Native\TimerApiWin32.cpp" />
+    <ClCompile Include="src\Native\TrackBarApiGtk.cpp" />
+    <ClCompile Include="src\Native\TrackBarApiWin32.cpp" />
+    <ClCompile Include="src\Native\WindowProcedureApiWin32.cpp" />
+    <ClCompile Include="src\Switch\Switch.System.Windows.Forms.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Application.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Button.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\CheckBox.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Control.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Form.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\GroupBox.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Label.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Message.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\MessageBox.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Panel.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\ProgressBar.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\RadioButton.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\SystemInformation.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\TabControl.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\TabPage.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\Timer.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\TrackBar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\call_stack\call_stack.vcxproj">
+      <Project>{3df5bac8-268f-4489-86e3-e0513832e45a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\curl\curl.vcxproj">
+      <Project>{8e9aca49-77c8-4997-aacd-8eb2a50db9ac}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\easywsclient\easywsclient.vcxproj">
+      <Project>{43af20e2-f698-450a-94b3-98919aeb4cfd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\jpeg\jpeg.vcxproj">
+      <Project>{c714cc8a-3b53-4df7-9558-1d154fbd7ac6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{fd98a29b-d6c7-4ba5-9c04-2a2e9bce2bd6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RS-232\RS-232.vcxproj">
+      <Project>{3783a99f-8efd-4e8b-8abe-cd3b997c04e8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.vcxproj">
+      <Project>{639c3ea1-20b3-4229-88fe-4be62b46b298}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Drawing\System.Drawing.vcxproj">
+      <Project>{cd845b49-a1e2-4af8-8ebf-9e85188ad3e5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System.ServiceModel\System.ServiceModel.vcxproj">
+      <Project>{1b2e4f0b-d441-4bb9-a488-c1545e022966}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.vcxproj">
+      <Project>{30967fbf-d7fe-489b-83c1-c238fee4234b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{6de7a699-3c61-4595-ac51-946ff3914423}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{29b8c782-53d2-4973-a2e6-e641b574f61c}</ProjectGuid>
+    <RootNamespace>SystemWindowsForms</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)System\include;$(SolutionDir)System.Core\include;$(SolutionDir)System.Drawing\include;$(SolutionDir)System.ServiceModel\include;$(SolutionDir)System.Windows.Forms\include;$(SolutionDir);$(SolutionDir)zlib;$(SolutionDir)jpeg;$(SolutionDir)libpng;$(SolutionDir)RS-232;$(SolutionDir)easywsclient;$(SolutionDir)call_stack;$(SolutionDir)curl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <OutDir>$(SolutionDir)bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
