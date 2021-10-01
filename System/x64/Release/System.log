@@ -1,0 +1,83 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  CurlApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DebuggerApiGcc.cpp
+  DebuggerApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DnsApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ProcessApiGcc.cpp
+  ProcessApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SecurityApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SocketApiGcc.cpp
+  SocketApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SystemSoundApiGtk.cpp
+  SystemSoundApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Switch.System.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Debug.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DefaultTraceListener.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Process.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Diagnostics\Process.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ProcessStartInfo.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Stopwatch.cpp
+  Trace.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TraceSource.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SerialPort.cpp
+  正在编译...
+  SystemSound.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SystemSounds.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Dns.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DnsEndPoint.cpp
+  EndPoint.cpp
+  FtpWebRequest.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FtpWebResponse.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  HttpWebRequest.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  HttpWebResponse.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IPAddress.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IPEndPoint.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IPHostEntry.cpp
+  SocketAddress.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  NetworkStream.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Net\Sockets\IOControlCode.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Socket.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Net\Sockets\IOControlCode.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TcpClient.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Net\Sockets\IOControlCode.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TcpListener.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Net\Sockets\IOControlCode.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UdpClient.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System\include\Switch\System\Net\Sockets\IOControlCode.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebRequest.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebRequestMethods.cpp
+  正在编译...
+  WebResponse.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ClientWebSocket.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebSocket.cpp
+  Semaphore.cpp
+  Uri.cpp
+  System.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\System.lib

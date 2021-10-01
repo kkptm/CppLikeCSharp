@@ -1,0 +1,56 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  example.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(98,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(149,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(245,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(341,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(420,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\example.c(501,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gzclose.c
+  gzlib.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(193,15): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(208,13): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(214,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(243,20): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(245,9): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(294,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzlib.c(607,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gzread.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzread.c(30,15): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzread.c(36,34): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzread.c(591,11): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  gzwrite.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzwrite.c(84,15): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzwrite.c(86,38): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzwrite.c(101,33): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzwrite.c(103,42): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\gzwrite.c(573,9): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  minigzip.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(471,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(477,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(489,5): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(511,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(524,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(534,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(542,5): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(566,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(605,9): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(606,9): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(608,28): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(612,28): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(618,13): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(633,33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\zlib\minigzip.c(638,40): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  trees.c
+  uncompr.c
+  zutil.c
+example.obj : warning LNK4006: main 已在 minigzip.obj 中定义；已忽略第二个定义
+  zlib.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\zlib.lib

@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  easywsclient.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(95,23): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“WCHAR *”
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(95,23): message : 请考虑在格式字符串中使用“%ls”
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(95,23): message : 请考虑在格式字符串中使用“%lls”
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(95,23): message : 请考虑在格式字符串中使用“%Ls”
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(95,23): message : 请考虑在格式字符串中使用“%ws”
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(102,12): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(199,27): warning C4244: “参数”: 从“socket_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(203,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(224,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(468,96): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(470,92): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(473,101): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(475,92): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(476,93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(478,104): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(480,117): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(481,99): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\32498\Source\Repos\CppLikeCSharp\easywsclient\easywsclient.cpp(482,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  easywsclient.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\easywsclient.lib

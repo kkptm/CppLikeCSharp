@@ -94,7 +94,7 @@
 #include "System/Windows/Forms/TabAlignment.hpp"
 #include "System/Windows/Forms/TabControl.hpp"
 #include "System/Windows/Forms/TabPage.hpp"
-//#include "System/Windows/Forms/TextBox.hpp"
+#include "System/Windows/Forms/TextBox.hpp"
 #include "System/Windows/Forms/Timer.hpp"
 #include "System/Windows/Forms/TrackBar.hpp"
 #include "System/Windows/Forms/UICues.hpp"

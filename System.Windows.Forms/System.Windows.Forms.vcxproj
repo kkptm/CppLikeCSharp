@@ -101,6 +101,7 @@
     <ClInclude Include="include\Switch\System\Windows\Forms\TabAlignment.hpp" />
     <ClInclude Include="include\Switch\System\Windows\Forms\TabControl.hpp" />
     <ClInclude Include="include\Switch\System\Windows\Forms\TabPage.hpp" />
+    <ClInclude Include="include\Switch\System\Windows\Forms\TextBox.hpp" />
     <ClInclude Include="include\Switch\System\Windows\Forms\TickStyle.hpp" />
     <ClInclude Include="include\Switch\System\Windows\Forms\Timer.hpp" />
     <ClInclude Include="include\Switch\System\Windows\Forms\TrackBar.hpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="src\Native\TabControlApiWin32.cpp" />
     <ClCompile Include="src\Native\TabPageApiGtk.cpp" />
     <ClCompile Include="src\Native\TabPageApiWin32.cpp" />
+    <ClCompile Include="src\Native\TextBoxApiWin32.cpp" />
     <ClCompile Include="src\Native\TimerApiGtk.cpp" />
     <ClCompile Include="src\Native\TimerApiWin32.cpp" />
     <ClCompile Include="src\Native\TrackBarApiGtk.cpp" />
@@ -164,6 +166,7 @@
     <ClCompile Include="src\Switch\System\Windows\Forms\SystemInformation.cpp" />
     <ClCompile Include="src\Switch\System\Windows\Forms\TabControl.cpp" />
     <ClCompile Include="src\Switch\System\Windows\Forms\TabPage.cpp" />
+    <ClCompile Include="src\Switch\System\Windows\Forms\TextBox.cpp" />
     <ClCompile Include="src\Switch\System\Windows\Forms\Timer.cpp" />
     <ClCompile Include="src\Switch\System\Windows\Forms\TrackBar.cpp" />
   </ItemGroup>

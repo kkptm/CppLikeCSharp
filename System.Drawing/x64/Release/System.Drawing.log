@@ -1,0 +1,41 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  BrushApiGtk.cpp
+  BrushApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FontFamilyApiGtk.cpp
+  FontFamilyApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Drawing\src\Native\FontFamilyApiWin32.cpp(4,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Drawing\src\Native\FontFamilyApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GdiApiGtk.cpp
+  GdiApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  PenApiGtk.cpp
+  PenApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SystemColorsApiGtk.cpp
+  SystemColorsApiWin32.cpp
+  Switch.System.Drawing.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Brush.cpp
+  Color.cpp
+  Font.cpp
+  FontFamily.cpp
+  Graphics.cpp
+  Image.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FrameDimension.cpp
+  ImageFormat.cpp
+  Pen.cpp
+  正在编译...
+  Point.cpp
+  PointF.cpp
+  Rectangle.cpp
+  RectangleF.cpp
+  Size.cpp
+  SizeF.cpp
+  SolidBrush.cpp
+  SystemColors.cpp
+  FontCollection.cpp
+  InstalledFontCollection.cpp
+  System.Drawing.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\System.Drawing.lib

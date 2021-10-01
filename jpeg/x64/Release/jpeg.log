@@ -1,0 +1,54 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  jaricom.c
+  jcapimin.c
+  jcapistd.c
+  jcarith.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdarith.c
+  正在编译...
+  jdatadst.c
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\jpeg\jerror.c(193,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\jpeg\jerror.c(195,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  正在编译...
+  jidctint.c
+  jmemmgr.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\jpeg\jmemmgr.c(1106,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\jpeg\jmemmgr.c(1109,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  jpeg.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\jpeg.lib

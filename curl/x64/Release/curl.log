@@ -1,0 +1,257 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  amigaos.c
+  asyn-ares.c
+  asyn-thread.c
+  base64.c
+  conncache.c
+  connect.c
+  content_encoding.c
+  cookie.c
+  curl_addrinfo.c
+  curl_des.c
+  curl_endian.c
+  curl_fnmatch.c
+  curl_gethostname.c
+  curl_gssapi.c
+  curl_memrchr.c
+  curl_multibyte.c
+  curl_ntlm_core.c
+  curl_ntlm_wb.c
+  curl_rtmp.c
+  curl_sasl.c
+  正在编译...
+  curl_sspi.c
+  curl_threads.c
+  dict.c
+  dotdot.c
+  easy.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(271,10): warning C4273: “curl_global_init”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2127,22): message : 参见“curl_global_init”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(280,10): warning C4273: “curl_global_init_mem”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2142,22): message : 参见“curl_global_init_mem”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(312,6): warning C4273: “curl_global_cleanup”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2157,18): message : 参见“curl_global_cleanup”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(343,19): warning C4273: “curl_easy_init”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(28,31): message : 参见“curl_easy_init”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(374,10): warning C4273: “curl_easy_setopt”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(29,22): message : 参见“curl_easy_setopt”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(804,10): warning C4273: “curl_easy_perform”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(30,22): message : 参见“curl_easy_perform”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(825,6): warning C4273: “curl_easy_cleanup”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(31,18): message : 参见“curl_easy_cleanup”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(842,10): warning C4273: “curl_easy_getinfo”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(46,22): message : 参见“curl_easy_getinfo”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(862,19): warning C4273: “curl_easy_duphandle”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(61,31): message : 参见“curl_easy_duphandle”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(963,6): warning C4273: “curl_easy_reset”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(74,18): message : 参见“curl_easy_reset”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(996,10): warning C4273: “curl_easy_pause”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2499,22): message : 参见“curl_easy_pause”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(1065,10): warning C4273: “curl_easy_recv”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(84,22): message : 参见“curl_easy_recv”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\easy.c(1092,10): warning C4273: “curl_easy_send”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\easy.h(95,22): message : 参见“curl_easy_send”的前一个定义
+  escape.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\escape.c(68,7): warning C4273: “curl_escape”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2083,19): message : 参见“curl_escape”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\escape.c(74,7): warning C4273: “curl_unescape”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2104,19): message : 参见“curl_unescape”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\escape.c(79,7): warning C4273: “curl_easy_escape”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2078,19): message : 参见“curl_easy_escape”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\escape.c(215,7): warning C4273: “curl_easy_unescape”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2098,19): message : 参见“curl_easy_unescape”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\escape.c(241,6): warning C4273: “curl_free”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2115,18): message : 参见“curl_free”的前一个定义
+  file.c
+  fileinfo.c
+  formdata.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\formdata.c(741,14): warning C4273: “curl_formadd”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2014,26): message : 参见“curl_formadd”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\formdata.c(965,5): warning C4273: “curl_formget”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2039,17): message : 参见“curl_formget”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\formdata.c(1011,6): warning C4273: “curl_formfree”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2048,18): message : 参见“curl_formfree”的前一个定义
+  ftp.c
+  ftplistparser.c
+  getenv.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\getenv.c(51,7): warning C4273: “curl_getenv”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2058,19): message : 参见“curl_getenv”的前一个定义
+  getinfo.c
+  gopher.c
+  hash.c
+  hmac.c
+  hostasyn.c
+  hostcheck.c
+  hostip.c
+  hostip4.c
+  正在编译...
+  hostip6.c
+  hostsyn.c
+  http.c
+  http2.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\http2.c(2204,7): warning C4273: “curl_pushheader_bynum”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(424,19): message : 参见“curl_pushheader_bynum”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\http2.c(2211,7): warning C4273: “curl_pushheader_byname”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(426,19): message : 参见“curl_pushheader_byname”的前一个定义
+  http_chunks.c
+  http_digest.c
+  http_negotiate.c
+  http_ntlm.c
+  http_proxy.c
+  idn_win32.c
+  if2ip.c
+  imap.c
+  inet_ntop.c
+  inet_pton.c
+  krb5.c
+  ldap.c
+  llist.c
+  md4.c
+  md5.c
+  memdebug.c
+  正在编译...
+  mprintf.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1006,5): warning C4273: “curl_mvsnprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(41,17): message : 参见“curl_mvsnprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1028,5): warning C4273: “curl_msnprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(36,17): message : 参见“curl_msnprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1076,7): warning C4273: “curl_maprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(43,19): message : 参见“curl_maprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1103,7): warning C4273: “curl_mvaprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(44,19): message : 参见“curl_mvaprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1137,5): warning C4273: “curl_msprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(35,17): message : 参见“curl_msprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1148,5): warning C4273: “curl_mprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(33,17): message : 参见“curl_mprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1159,5): warning C4273: “curl_mfprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(34,17): message : 参见“curl_mfprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1169,5): warning C4273: “curl_mvsprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(40,17): message : 参见“curl_mvsprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1177,5): warning C4273: “curl_mvprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(38,17): message : 参见“curl_mvprintf”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\mprintf.c(1182,5): warning C4273: “curl_mvfprintf”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\mprintf.h(39,17): message : 参见“curl_mvfprintf”的前一个定义
+  multi.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(355,20): warning C4273: “curl_multi_init”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(123,32): message : 参见“curl_multi_init”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(361,11): warning C4273: “curl_multi_add_handle”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(132,23): message : 参见“curl_multi_add_handle”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(656,11): warning C4273: “curl_multi_remove_handle”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(142,23): message : 参见“curl_multi_remove_handle”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(924,11): warning C4273: “curl_multi_fdset”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(154,23): message : 参见“curl_multi_fdset”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(973,11): warning C4273: “curl_multi_wait”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(168,23): message : 参见“curl_multi_wait”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2133,11): warning C4273: “curl_multi_perform”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(190,23): message : 参见“curl_multi_perform”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2205,11): warning C4273: “curl_multi_cleanup”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(203,23): message : 参见“curl_multi_cleanup”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2279,10): warning C4273: “curl_multi_info_read”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(233,22): message : 参见“curl_multi_info_read”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2670,11): warning C4273: “curl_multi_setopt”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(394,23): message : 参见“curl_multi_setopt”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2740,11): warning C4273: “curl_multi_socket”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(290,23): message : 参见“curl_multi_socket”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2749,11): warning C4273: “curl_multi_socket_action”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(293,23): message : 参见“curl_multi_socket_action”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2759,11): warning C4273: “curl_multi_socket_all”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(298,23): message : 参见“curl_multi_socket_all”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(2804,11): warning C4273: “curl_multi_timeout”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(317,23): message : 参见“curl_multi_timeout”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\multi.c(3052,11): warning C4273: “curl_multi_assign”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(407,23): message : 参见“curl_multi_assign”的前一个定义
+  netrc.c
+  non-ascii.c
+  nonblock.c
+  nwlib.c
+  nwos.c
+  openldap.c
+  parsedate.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\parsedate.c(548,8): warning C4273: “curl_getdate”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2194,20): message : 参见“curl_getdate”的前一个定义
+  pingpong.c
+  pipeline.c
+  pop3.c
+  progress.c
+  rand.c
+  rtsp.c
+  security.c
+  select.c
+  sendf.c
+  share.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\share.c(34,20): warning C4273: “curl_share_init”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2379,32): message : 参见“curl_share_init”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\share.c(51,1): warning C4273: “curl_share_setopt”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2380,24): message : 参见“curl_share_setopt”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\share.c(173,1): warning C4273: “curl_share_cleanup”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2381,24): message : 参见“curl_share_cleanup”的前一个定义
+  slist.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\slist.c(89,20): warning C4273: “curl_slist_append”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2173,32): message : 参见“curl_slist_append”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\slist.c(129,6): warning C4273: “curl_slist_free_all”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2183,18): message : 参见“curl_slist_free_all”的前一个定义
+  正在编译...
+  smb.c
+  smtp.c
+  socks.c
+  socks_gssapi.c
+  socks_sspi.c
+  speedcheck.c
+  splay.c
+  ssh.c
+  strcase.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\strcase.c(169,5): warning C4273: “curl_strequal”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(1921,18): message : 参见“curl_strequal”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\strcase.c(173,5): warning C4273: “curl_strnequal”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(1922,18): message : 参见“curl_strnequal”的前一个定义
+  strdup.c
+  strerror.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\strerror.c(53,1): warning C4273: “curl_easy_strerror”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2477,25): message : 参见“curl_easy_strerror”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\strerror.c(348,1): warning C4273: “curl_multi_strerror”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\multi.h(245,25): message : 参见“curl_multi_strerror”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\strerror.c(393,1): warning C4273: “curl_share_strerror”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2488,25): message : 参见“curl_share_strerror”的前一个定义
+  strtok.c
+  strtoofft.c
+  system_win32.c
+  telnet.c
+  tftp.c
+  timeval.c
+  transfer.c
+  url.c
+  cleartext.c
+  正在编译...
+  cram.c
+  digest.c
+  digest_sspi.c
+  krb5_gssapi.c
+  krb5_sspi.c
+  ntlm.c
+  ntlm_sspi.c
+  oauth2.c
+  spnego_gssapi.c
+  spnego_sspi.c
+  vauth.c
+  version.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\version.c(77,7): warning C4273: “curl_version”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2067,19): message : 参见“curl_version”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\curl\version.c(342,25): warning C4273: “curl_version_info”: dll 链接不一致
+C:\Users\32498\Source\Repos\CppLikeCSharp\curl\include\curl\curl.h(2466,37): message : 参见“curl_version_info”的前一个定义
+  axtls.c
+  cyassl.c
+  darwinssl.c
+  gskit.c
+  gtls.c
+  mbedtls.c
+  nss.c
+  openssl.c
+  正在编译...
+  polarssl.c
+  polarssl_threadlock.c
+  schannel.c
+  vtls.c
+  warnless.c
+  wildcard.c
+  x509asn1.c
+  curl.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\curl.lib

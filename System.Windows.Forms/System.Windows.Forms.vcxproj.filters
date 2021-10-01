@@ -303,6 +303,9 @@
     <ClInclude Include="src\Native\WindowProcedureApiWin32.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\Switch\System\Windows\Forms\TextBox.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Native\ApplicationApiGtk.cpp">
@@ -450,6 +453,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\Switch\System\Windows\Forms\TrackBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Switch\System\Windows\Forms\TextBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Native\TextBoxApiWin32.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

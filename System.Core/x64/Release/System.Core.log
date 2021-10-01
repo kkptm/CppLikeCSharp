@@ -1,0 +1,174 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  ConsoleApiGcc.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Native\ConsoleApiGcc.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ConsoleApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DateTimeApiGcc.cpp
+  DateTimeApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DirectoryApiGcc.cpp
+  DirectoryApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DriveApiGcc.cpp
+  DriveApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  EnvironmentApiGcc.cpp
+  EnvironmentApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Native\EnvironmentApiW32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Native\EnvironmentApiW32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  EnvironmentVersionApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FormatApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  InterlockedApiGcc.cpp
+  InterlockedApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RegistryApiGcc.cpp
+  RegistryApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Native\RegistryApiW32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Native\RegistryApiW32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SecurityApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ThreadApiGcc.cpp
+  ThreadApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TypeApiGcc.cpp
+  正在编译...
+  TypeApiW32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UnicodeCharactersApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UnicodeEncodingsApi.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Abstract.cpp
+  Any.cpp
+  Await.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Boxing.cpp
+  ExceptionPtr.cpp
+  GetHashCode.cpp
+  LiteralOperatorConverter.cpp
+  RegistryKeyAll.cpp
+  RegistryKeyWin.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Startup.cpp
+  Switch.Core.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Switch.System.Core.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  BitConverter.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Boolean.cpp
+  Buffer.cpp
+  Byte.cpp
+  Char.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\src\Switch\System\Char.cpp(145,45): warning C4056: 浮点常量算术溢出
+  正在编译...
+  Console.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Convert.cpp
+  DateTime.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Decimal.cpp
+  StackFrame.cpp
+  StackTrace.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Double.cpp
+  Environment.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  EventArgs.cpp
+  Exception.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Guid.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Int16.cpp
+  Int32.cpp
+  Int64.cpp
+  IntPtr.cpp
+  Directory.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DirectoryInfo.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  DriveInfo.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  File.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FileInfo.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在编译...
+  FileStream.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FileSystemInfo.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MemoryStream.cpp
+  Path.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Random.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Stream.cpp
+  StreamReader.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  StreamWriter.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  StringReader.cpp
+  StringWriter.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TextReader.cpp
+  TextWriter.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Linq.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Math.cpp
+  NumericalFormat.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  NumericalParsing.cpp
+  Object.cpp
+  Random.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Random.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SerializationInfo.cpp
+  SByte.cpp
+  SecureString.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在编译...
+  Single.cpp
+  String.cpp
+  ANSIEncoding.cpp
+  ASCIIEncoding.cpp
+  Decoder.cpp
+  Encoder.cpp
+  Encoding.cpp
+  UnicodeEncoding.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UTF32Encoding.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UTF8Encoding.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  EventWaitHandle.cpp
+  Interlocked.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Monitor.cpp
+  Mutex.cpp
+  Task.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Thread.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ThreadPool.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Timeout.cpp
+  WaitHandle.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TimeSpan.cpp
+  正在编译...
+  TimeZoneInfo.cpp
+  Type.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UInt16.cpp
+  UInt32.cpp
+  UInt64.cpp
+  UIntPtr.cpp
+  __opaque_lock_guard__.cpp
+  __opaque_unicode_string__.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  System.Core.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\System.Core.lib

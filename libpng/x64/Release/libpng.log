@@ -1,0 +1,22 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  png.c
+  pngerror.c
+  pngget.c
+  pngpread.c
+  pngread.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngread.c(1502,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngread.c(1518,43): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngwrite.c(491,11): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngwrite.c(2338,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngwrite.c(2366,46): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\32498\Source\Repos\CppLikeCSharp\libpng\pngwrite.c(2379,43): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngwtran.c
+  pngwutil.c
+  libpng.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\libpng.lib

@@ -6,6 +6,7 @@
 #include "../../include/Switch/System/Windows/Forms/ArrangeStartingPosition.hpp"
 #include "../../include/Switch/System/Windows/Forms/BootMode.hpp"
 #include "../../include/Switch/System/Windows/Forms/Button.hpp"
+#include "../../include/Switch/System/Windows/Forms/TextBox.hpp"
 #include "../../include/Switch/System/Windows/Forms/CheckBox.hpp"
 #include "../../include/Switch/System/Windows/Forms/Control.hpp"
 #include "../../include/Switch/System/Windows/Forms/DialogResult.hpp"
@@ -43,8 +44,12 @@ namespace Native {
 
   class ButtonApi static_ {
   public:
-    static intptr Create(const System::Windows::Forms::Button& button);
-    static void SetIsDefault(const System::Windows::Forms::Button& button);
+      static intptr Create(const System::Windows::Forms::Button& button);
+      static void SetIsDefault(const System::Windows::Forms::Button& button);
+  };
+  class TextBoxApi static_ {
+  public:
+      static intptr Create(const System::Windows::Forms::TextBox& button);
   };
 
   class CheckBoxApi static_ {

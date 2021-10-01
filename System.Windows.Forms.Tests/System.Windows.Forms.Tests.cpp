@@ -13,6 +13,7 @@ using namespace System::Drawing;
 using namespace System::Windows::Forms;
 using namespace System::IO;
 using namespace System::Diagnostics;
+using namespace System::Net::WebSockets;
 using namespace System::Collections::Generic;
 int main()
 {
@@ -30,9 +31,14 @@ int main()
         }
     };
 
+    TextBox textbox;
+    textbox.Text = "文本";
+    textbox.Location = Point(10, 35);
+
     Form form;
     form.Text = "Hello World Form";
     form.Controls().Add(button);
+    form.Controls().Add(textbox);
 
     Application::Run(form);
 }

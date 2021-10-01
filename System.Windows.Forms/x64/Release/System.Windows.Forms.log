@@ -1,0 +1,112 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  ApplicationApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ApplicationApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ApplicationApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ButtonApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ButtonApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ButtonApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CheckBoxApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\CheckBoxApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\CheckBoxApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ControlApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ControlApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ControlApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FormApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\FormApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\FormApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GroupBoxApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\GroupBoxApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\GroupBoxApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  LabelApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\LabelApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\LabelApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  PanelApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\PanelApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\PanelApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ProgressBarApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ProgressBarApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\ProgressBarApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RadioButtonApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\RadioButtonApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\RadioButtonApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SystemInformationApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TabControlApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TabControlApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TabControlApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TabPageApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TabPageApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TabPageApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TextBoxApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TextBoxApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TextBoxApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TimerApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TrackBarApiWin32.cpp
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TrackBarApiWin32.cpp(3,1): warning C4005: “UNICODE”: 宏重定义
+C:\Users\32498\source\repos\CppLikeCSharp\System.Windows.Forms\src\Native\TrackBarApiWin32.cpp : message : 参见“UNICODE”的前一个定义
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WindowProcedureApiWin32.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Application.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Button.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CheckBox.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在编译...
+  Control.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Form.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GroupBox.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Label.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Message.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MessageBox.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Panel.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ProgressBar.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RadioButton.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SystemInformation.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TabControl.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TabPage.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TextBox.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Timer.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  TrackBar.cpp
+C:\Users\32498\Source\Repos\CppLikeCSharp\System.Core\include\Switch\System\Threading\ThreadState.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  System.Windows.Forms.vcxproj -> C:\Users\32498\Source\Repos\CppLikeCSharp\bin\System.Windows.Forms.lib
